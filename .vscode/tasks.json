@@ -1,0 +1,23 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build OS",
+			"type": "shell",
+			"command": "${workspaceFolder}/Build.bat",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		},
+		{
+			"label": "Run OS",
+			"type": "shell",
+			"command": "${workspaceFolder}/Run.bat",
+			"problemMatcher": [],
+		}
+	]
+}
