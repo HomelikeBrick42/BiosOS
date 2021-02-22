@@ -1,1 +1,1 @@
-nasm -f bin OS.asm -o OS.bin
+nasm -f bin OS_Main.asm -o OS.bin

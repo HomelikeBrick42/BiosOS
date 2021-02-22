@@ -11,13 +11,24 @@
 			"group": {
 				"kind": "build",
 				"isDefault": true
+			},
+			"presentation": {
+				"reveal": "silent",
+				"showReuseMessage": false,
+				"clear": true
 			}
 		},
 		{
 			"label": "Run OS",
 			"type": "shell",
+			"dependsOn": "Build OS",
 			"command": "${workspaceFolder}/Run.bat",
 			"problemMatcher": [],
+			"presentation": {
+				"reveal": "silent",
+				"showReuseMessage": false,
+				"clear": true
+			}
 		}
 	]
 }
